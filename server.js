@@ -2,6 +2,7 @@ const express = require("express");
 const helmet = require("helmet");
 const cors = require("cors");
 const session = require("express-session");
+require("dotenv").config();
 
 const userRouter = require("./users/users-router");
 
